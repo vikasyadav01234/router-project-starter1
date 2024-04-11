@@ -52,7 +52,7 @@ const LoginForm = ({setIsLoggedIn}) => {
         </label>
 
         <label>
-            <p>
+            <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
                 Password<sup>*</sup>
             </p>
             <input 
