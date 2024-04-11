@@ -47,6 +47,7 @@ const LoginForm = ({setIsLoggedIn}) => {
                 onChange={changeHandler}
                 placeholder="Enter email id"
                 name="email"
+                className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'
             />
         </label>
 
