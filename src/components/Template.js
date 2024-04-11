@@ -27,9 +27,9 @@ const Template = ({title, desc1, desc2, image, formtype, setIsLoggedIn}) => {
             (<LoginForm setIsLoggedIn={setIsLoggedIn}/>)}
 
             <div className="flex w-full items-center my-4 gap-x-2">
-                <div className='h-[1px] bg-richblack-700'></div>
+                <div className='w-full h-[1px] bg-white'></div>
                 <p className='text-richblack-700 font medium leading-[1.375]'>OR</p>
-                <div className='h-[1px] bg-richblack-700'></div>
+                <div className='w-full h-[1px] bg-richblack-700'></div>
             </div>
 
             <button>
