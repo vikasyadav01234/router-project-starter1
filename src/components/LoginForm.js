@@ -37,7 +37,7 @@ const LoginForm = ({setIsLoggedIn}) => {
     className='flex flex-col w-full gap-y-4 mt-6'
     >
         <label className='w-full'>
-            <p className=''>
+            <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
                 Email Address<sup>*</sup>
             </p>
             <input 
