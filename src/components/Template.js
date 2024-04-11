@@ -41,12 +41,13 @@ const Template = ({title, desc1, desc2, image, formtype, setIsLoggedIn}) => {
 
         </div>
 
-        <div>
+        <div className='relative w-11/12 max-w-[450px]'>
             <img src={frameImage}
                 alt="Pattern"
                 width={558}
                 height={504}
-                loading="lazy"/>
+                loading="lazy"
+                />
 
             <img src={image}
                 alt="Students"
