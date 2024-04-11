@@ -66,7 +66,7 @@ const LoginForm = ({setIsLoggedIn}) => {
             />
 
             <span
-                className='absolute right-3 top-[38px]'
+                className='absolute right-3 top-[38px] cursor-pointer'
              onClick={() => setShowPassword((prev) => !prev)}>
                 {showPassword ? (<AiOutlineEyeInvisible/>) : (<AiOutlineEye/>)}
             </span>
