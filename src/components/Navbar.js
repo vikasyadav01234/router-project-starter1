@@ -32,14 +32,14 @@ const Navbar = (props) => {
         <div className='flex ml-5 mr-3 gap-3'>
             { !isLoggedIn &&
                 <Link to="/login">
-                    <button className='bg-richblack-800 text-white py-[8px] px-[12px] rounded-[8px] border border-richBlack-700'>
+                    <button className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] rounded-[8px] border border-richBlack-700'>
                         Login
                     </button>
                 </Link>
             }
             { !isLoggedIn &&
                 <Link to="/signup">
-                    <button className='bg-richblack-800 text-white py-[8px] px-[12px] rounded-[8px] border border-richBlack-700'>
+                    <button className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] rounded-[8px] border border-richBlack-700'>
                         Sign Up
                     </button>
                 </Link>
@@ -50,7 +50,7 @@ const Navbar = (props) => {
                         setIsLoggedIn(false);
                         toast.success("Logged Out");
                     }} 
-                    className='bg-richblack-800 text-white py-[8px] px-[12px] rounded-[8px] border border-richBlack-700'
+                    className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] rounded-[8px] border border-richBlack-700'
                     >
                         Log Out
                     </button>
@@ -58,7 +58,7 @@ const Navbar = (props) => {
             }
             { isLoggedIn &&
                 <Link to="/dashboard">
-                    <button className='bg-richblack-800 text-white py-[8px] px-[12px] rounded-[8px] border border-richBlack-700'>
+                    <button className='bg-richblack-800 text-richblack-100 py-[8px] px-[12px] rounded-[8px] border border-richBlack-700'>
                         Dashboard
                     </button>
                 </Link>
