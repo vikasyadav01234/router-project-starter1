@@ -39,7 +39,7 @@ const Navbar = (props) => {
             }
             { !isLoggedIn &&
                 <Link to="/signup">
-                    <button >
+                    <button className='bg-richblack-800 text-white py-[8px] px-[12px] rounded-[8px] border border-richBlack-700'>
                         Sign Up
                     </button>
                 </Link>
