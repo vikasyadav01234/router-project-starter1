@@ -36,8 +36,8 @@ const LoginForm = ({setIsLoggedIn}) => {
     <form onSubmit={submitHandler}
     className='flex flex-col w-full gap-y-4 mt-6'
     >
-        <label>
-            <p>
+        <label className='w-full'>
+            <p className=''>
                 Email Address<sup>*</sup>
             </p>
             <input 
