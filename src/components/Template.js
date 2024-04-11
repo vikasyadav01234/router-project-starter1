@@ -34,6 +34,7 @@ const Template = ({title, desc1, desc2, image, formtype, setIsLoggedIn}) => {
             </div>
 
             <button>
+                <FcGoogle/>
                 <p>Sign Up with Google</p>
             </button>
 
