@@ -32,7 +32,7 @@ const Navbar = (props) => {
         <div className='flex ml-5 mr-3 gap-3'>
             { !isLoggedIn &&
                 <Link to="/login">
-                    <button className='bg-richblack-800 text-white py-[8px] px-[12px] rounded-[8px]'>
+                    <button className='bg-richblack-800 text-white py-[8px] px-[12px] rounded-[8px] border border-richBlack-700'>
                         Login
                     </button>
                 </Link>
