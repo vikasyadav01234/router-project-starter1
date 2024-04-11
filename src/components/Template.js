@@ -16,7 +16,7 @@ const Template = ({title, desc1, desc2, image, formtype, setIsLoggedIn}) => {
             <h1
              className='text-richblack-5  font-semibold text-[1.875rem] leading-[2.375rem]'
             >{title}</h1>
-            <p className='text-[1.125rem]'>
+            <p className='text-[1.125rem] leading-[1.625rem] mt-4'>
                 <span>{desc1}</span>
                 <span>{desc2}</span>
             </p>
