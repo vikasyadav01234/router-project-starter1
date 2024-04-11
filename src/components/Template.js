@@ -11,7 +11,7 @@ const Template = ({title, desc1, desc2, image, formtype, setIsLoggedIn}) => {
 //    console.log(formtype)
   return (
 
-    <div className='flex w-11/12 max-w-[1160px] py-12 mx-auto gap-x-12 gap-y-0'>
+    <div className='justify-between flex w-11/12 max-w-[1160px] py-12 mx-auto gap-x-12 gap-y-0'>
 
         <div>
             <h1
