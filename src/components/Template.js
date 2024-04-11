@@ -53,7 +53,9 @@ const Template = ({title, desc1, desc2, image, formtype, setIsLoggedIn}) => {
                 alt="Students"
                 width={558}
                 height={490}
-                loading="lazy"/>    
+                loading="lazy"
+                className='absolute -top-4 right-4'
+                />    
         </div>
 
     </div>
