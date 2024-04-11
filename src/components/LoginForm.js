@@ -68,9 +68,9 @@ const LoginForm = ({setIsLoggedIn}) => {
             <span
                 className='absolute right-3 top-[38px] cursor-pointer'
              onClick={() => setShowPassword((prev) => !prev)}>
-                {showPassword ? (<AiOutlineEyeInvisible fontSize={24} fill='#AFBZBF'/>) : 
+                {showPassword ? (<AiOutlineEyeInvisible fontSize={24} fill='#AFB2BF'/>) : 
 
-                (<AiOutlineEye fontSize={24} fill='#AFBZBF'/>)}
+                (<AiOutlineEye fontSize={24} fill='#AFB2BF'/>)}
             </span>
 
             <Link to="#">
