@@ -53,7 +53,7 @@ const LoginForm = ({setIsLoggedIn}) => {
 
         <label className='w-full'>
             <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
-                Password<sup>*</sup>
+                Password<sup className='text-pink-200'>*</sup>
             </p>
             <input 
                 required
