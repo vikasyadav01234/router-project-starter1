@@ -80,7 +80,7 @@ const LoginForm = ({setIsLoggedIn}) => {
             </Link>
         </label>
 
-        <button>
+        <button className='bg-yellow-50 rounded-[8px] font-medium text-richblack-900 px-[12px] py-[8px]'>
             Sign In
         </button>
 
