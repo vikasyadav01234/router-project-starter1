@@ -74,7 +74,7 @@ const LoginForm = ({setIsLoggedIn}) => {
             </span>
 
             <Link to="#">
-                <p className='text-xs mt-1 text-blue-100 ml-auto'>
+                <p className='text-xs mt-1 text-blue-100 max-w-max mx-auto'>
                     Forgot Password
                 </p>
             </Link>
