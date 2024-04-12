@@ -117,7 +117,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                     </span>
                 </label>
 
-                <label>
+                <label className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
                     <p>Confirm Password<sup>*</sup></p>
                     <input
                         required
