@@ -104,7 +104,8 @@ const SignupForm = ({setIsLoggedIn}) => {
                     />
                 </label>
             </div>
-            {/* createPassword and Confirm Password */}
+            {/* createPassword and Confirm
+             Password */}
             <div className='flex gap-x-4'>
                 <label className='w-full relative '>
                     <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
