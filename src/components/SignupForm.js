@@ -90,7 +90,8 @@ const SignupForm = ({setIsLoggedIn}) => {
                     </label>
             </div>
             {/* email Add */}
-            <label className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
+            <div className='w-full'>
+                <label className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
                     <p>Email Address<sup className='text-pink-600'>*</sup></p>
                     <input
                         required
@@ -101,8 +102,8 @@ const SignupForm = ({setIsLoggedIn}) => {
                         value={formData.email}
                         className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'
                     />
-            </label>
-
+                </label>
+            </div>
             {/* createPassword and Confirm Password */}
             <div className='flex justify-between'>
                 <label className='relative text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
