@@ -88,7 +88,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                     </label>
             </div>
             {/* email Add */}
-            <label>
+            <label className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
                     <p>Email Address<sup>*</sup></p>
                     <input
                         required
