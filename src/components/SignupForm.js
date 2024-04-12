@@ -130,6 +130,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                         onChange={changeHandler}
                         placeholder="Confirm Password"
                         value={formData.confirmPassword}
+                        className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'
                     />
                     <span onClick={() => setShowPassword((prev) => !prev)}>
                         {showPassword ? (<AiOutlineEyeInvisible/>) : (<AiOutlineEye/>)}
