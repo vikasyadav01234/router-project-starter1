@@ -72,6 +72,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                             onChange={changeHandler}
                             placeholder="Enter First Name"
                             value={formData.firstName}
+                            className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'
                         />
                     </label>
 
