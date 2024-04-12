@@ -105,7 +105,7 @@ const SignupForm = ({setIsLoggedIn}) => {
 
             {/* createPassword and Confirm Password */}
             <div>
-                <label className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
+                <label className='relative text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
                     <p>Create Password<sup className='text-pink-600'>*</sup></p>
                     <input
                         required
@@ -124,7 +124,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                     </span>
                 </label>
 
-                <label className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
+                <label className='relative text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
                     <p>Confirm Password<sup className='text-pink-600'>*</sup></p>
                     <input
                         required
