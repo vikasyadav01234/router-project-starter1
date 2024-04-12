@@ -62,7 +62,7 @@ const SignupForm = ({setIsLoggedIn}) => {
 
         <form onSubmit={submitHandler}>
         {/* first name and lastName */}
-            <div className='flex gap-x-4'>
+            <div className='flex justify-between'>
                     <label className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
                         <p>First Name<sup className='text-pink-600'>*</sup></p>
                         <input
@@ -104,7 +104,7 @@ const SignupForm = ({setIsLoggedIn}) => {
             </label>
 
             {/* createPassword and Confirm Password */}
-            <div>
+            <div className='flex gap-x-4'>
                 <label className='relative text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
                     <p>Create Password<sup className='text-pink-600'>*</sup></p>
                     <input
