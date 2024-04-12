@@ -99,6 +99,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                         onChange={changeHandler}
                         placeholder="Enter Email Address "
                         value={formData.email}
+                        className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'
                     />
             </label>
 
