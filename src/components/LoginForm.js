@@ -45,7 +45,7 @@ const LoginForm = ({setIsLoggedIn}) => {
                 type="email"
                 value = {formData.email}
                 onChange={changeHandler}
-                placeholder="Enter email id"
+                placeholder="Enter email adress"
                 name="email"
                 className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'
             />
@@ -80,7 +80,7 @@ const LoginForm = ({setIsLoggedIn}) => {
             </Link>
         </label>
 
-        <button className='bg-yellow-50 rounded-[8px] font-medium text-richblack-900 px-[12px] py-[8px]'>
+        <button className='bg-yellow-50 rounded-[8px] font-medium text-richblack-900 px-[12px] py-[8px] mt-6'>
             Sign In
         </button>
 
