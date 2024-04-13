@@ -76,7 +76,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                         />
                     </label>
 
-                    <label className='w-full'>
+                    <label className='w-full mt-4'>
                         <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>Last Name<sup className='text-pink-600'>*</sup></p>
                         <input
                             required
@@ -90,7 +90,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                     </label>
             </div>
             {/* email Add */}
-            <div className='w-full'>
+            <div className='w-full mt-4'>
                 <label>
                     <p
                         className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'
@@ -108,7 +108,7 @@ const SignupForm = ({setIsLoggedIn}) => {
             </div>
             {/* createPassword and Confirm
              Password */}
-            <div className='flex gap-x-4'>
+            <div className='flex gap-x-4 mt-4'>
                 <label className='w-full relative '>
                     <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>
                     Create Password<sup className='text-pink-600'>*</sup></p>
