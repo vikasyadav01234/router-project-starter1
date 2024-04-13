@@ -127,8 +127,8 @@ const SignupForm = ({setIsLoggedIn}) => {
                     </span>
                 </label>
 
-                <label className='relative'>
-                    <p className='w-full text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>Confirm Password<sup className='text-pink-600'>*</sup></p>
+                <label className='w-full relative'>
+                    <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>Confirm Password<sup className='text-pink-600'>*</sup></p>
                     <input
                         required
                         type= {showPassword ? ("text") : ("password")}
