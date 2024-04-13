@@ -6,6 +6,7 @@ import Login from "./pages/Login"
 import Signup from "./pages/Signup"
 import Dashboard from "./pages/Dashboard"
 import { useEffect, useState } from 'react'
+import PrivateRoute from "./components/PrivateRoute";
 
 
 function App() {
