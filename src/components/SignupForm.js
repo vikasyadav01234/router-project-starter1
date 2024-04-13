@@ -76,7 +76,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                         />
                     </label>
 
-                    <label className='w-full mt-4'>
+                    <label className='w-full mt-[20px]'>
                         <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>Last Name<sup className='text-pink-600'>*</sup></p>
                         <input
                             required
