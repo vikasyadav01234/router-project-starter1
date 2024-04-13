@@ -141,7 +141,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                         className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'
                     />
                     <span
-                        className='absolute right-3 top-[30px] cursor-pointer'
+                        className='absolute right-3 top-[36px] cursor-pointer'
                      onClick={() => setShowPassword((prev) => !prev)}>
                         {showPassword ? (<AiOutlineEyeInvisible fontSize={24} fill='#AFB2BF'/>) : 
                         (<AiOutlineEye fontSize={24} fill='#AFB2BF'/>)}
