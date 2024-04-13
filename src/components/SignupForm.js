@@ -58,7 +58,9 @@ const SignupForm = ({setIsLoggedIn}) => {
             >
                 Student
             </button>
-            <button>
+            <button
+            onClick={()=>setAccountType("instructor")}
+            >
                 Instructor
             </button>
         </div>
