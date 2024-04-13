@@ -16,6 +16,7 @@ const SignupForm = ({setIsLoggedIn}) => {
     })
 
     const [showPassword, setShowPassword] = useState(false);
+    const [accountType, setAccountType] = useState("student")
 
     function changeHandler(event) {
 
