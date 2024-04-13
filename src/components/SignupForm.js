@@ -53,7 +53,9 @@ const SignupForm = ({setIsLoggedIn}) => {
     <div>
         {/* student-Instructor tab */}
         <div className='flex bg-richblack-800 p-1 gap-z-1 my-6 rounded-full max-w-max'>
-            <button>
+            <button
+            onClick={()=>setAccountType("student")}
+            >
                 Student
             </button>
             <button>
