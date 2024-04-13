@@ -61,6 +61,8 @@ const SignupForm = ({setIsLoggedIn}) => {
                 Student
             </button>
             <button
+            className={`${accountType === "instructor" ? "bg-richblack-900 text-richblack-5"
+            :"bg-transparent text-richblack-200"}`}
             onClick={()=>setAccountType("instructor")}
             >
                 Instructor
