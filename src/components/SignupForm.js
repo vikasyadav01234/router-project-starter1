@@ -153,7 +153,7 @@ const SignupForm = ({setIsLoggedIn}) => {
                     <span
                         className='absolute right-3 top-[36px] cursor-pointer'
                      onClick={() => setConfirmShowPassword((prev) => !prev)}>
-                        {showPassword ? (<AiOutlineEyeInvisible fontSize={24} fill='#AFB2BF'/>) : 
+                        {showConfirmPassword ? (<AiOutlineEyeInvisible fontSize={24} fill='#AFB2BF'/>) : 
                         (<AiOutlineEye fontSize={24} fill='#AFB2BF'/>)}
                     </span>
                 </label>
