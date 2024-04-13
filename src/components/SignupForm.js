@@ -62,8 +62,8 @@ const SignupForm = ({setIsLoggedIn}) => {
 
         <form onSubmit={submitHandler}>
         {/* first name and lastName */}
-            <div className='flex gap-x-4'>
-                    <label className='w-full'>
+            <div className='flex gap-x-4 mt-4'>
+                    <label className='w-full mt-4'>
                         <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375]'>First Name<sup className='text-pink-600'>*</sup></p>
                         <input
                             required
